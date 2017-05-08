@@ -6,7 +6,7 @@ public class HourlyEmployeeTest {
 
 		Employee diorgenes = new HourlyEmployee("Diorgenes", "Morais", "113.112-12345-7", 120.0, 60.0);
 		System.out.println(diorgenes.toString());
-		System.out.println(diorgenes.earnings());
+		System.out.println(diorgenes.getPaymentAmount());
 	}
 
 }

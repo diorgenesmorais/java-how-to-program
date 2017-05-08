@@ -6,7 +6,7 @@ package com.dms.jcp10ed.poli;
  * @author Diorgenes Morais
  * @version 1.0.0
  */
-public abstract class Employee {
+public abstract class Employee implements Payable {
 
 	private final String firstName;
 	private final String lastName;
@@ -37,5 +37,4 @@ public abstract class Employee {
 				getSocialSecurityNumber());
 	}
 
-	public abstract double earnings();
 }

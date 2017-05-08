@@ -46,7 +46,7 @@ public class HourlyEmployee extends Employee {
 	}
 
 	@Override
-	public double earnings() {
+	public double getPaymentAmount() {
 		if (getHours() <= 40.0)
 			return getWage() * getHours();
 		else

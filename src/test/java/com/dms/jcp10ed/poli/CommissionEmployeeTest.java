@@ -6,7 +6,7 @@ public class CommissionEmployeeTest {
 
 		Employee diorgenes = new CommissionEmployee("Diorgenes", "Morais", "113.112.12345-7", 2500.0, 0.02);
 		System.out.println(diorgenes.toString());
-		System.out.println(diorgenes.earnings());
+		System.out.println(diorgenes.getPaymentAmount());
 	}
 
 }
