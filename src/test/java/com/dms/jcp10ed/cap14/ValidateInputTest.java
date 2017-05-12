@@ -2,7 +2,7 @@ package com.dms.jcp10ed.cap14;
 
 import java.util.Scanner;
 
-public class Validate {
+public class ValidateInputTest {
 
 	private static Scanner scanner;
 
